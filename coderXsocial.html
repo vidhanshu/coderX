@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top_scroll_nav</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Nunito:wght@200&family=Roboto&family=Roboto+Slab:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="coderX.css">
+    <script src="coderX.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- side vala kala navbar ka dabba -->
+    <div class="nav-side-container">
+        <span class="close" onclick="cl()">&times</span>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="coderXservice.html">SERVICES</a></li>
+            <li><a href="coderXContact.html">CONTACT ME</a></li>
+            <li><a href="coderXHelp.html">HELP</a></li>
+            <button class="register-button"><a href="coderXRegistration.html">Register</a></button>
+        </ul>
+    </div>
+    <!-- side vala kala navbar ka dabba -->
+
+    <!-- yeh container jisme pura webpage dal rkha hu aur iska overlow y hidden kr diya taki content bahar jane pe niche horizontal scroll bar na ajaye -->
+    <div id="home" class="main-container">
+
+
+        <!-- yeh voh container hai jo right me jaraha hai jb mai bars dabara aur overflow hidden hone ke karan yeh aisa lgta hai ki dhas gaya right me -->
+        <div class="container">
+
+
+            <!-- yeh mera simple sa nav bar jiska display flex krke justify content space between kr diya isilie dono apne ap side me chale gaye logo aur bars -->
+            <nav>
+                <h1 class="logo">Coder<span class="X">X</span></h1><span class="open" onclick="op()">&#9776</span>
+            </nav>
+
+            <!-- yeh header hai isme image daldi  -->
+            <header>
+                <h1>My social networking links</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, repellat.</p>
+            </header>
+            <!-- end of header -->
+
+
+
+
+            <!-- goto top button -->
+
+            <span onclick="gototop()" class="goto-top">
+                &#8679
+            </span>
+
+
+            <!-- goto top button -->
+
+
+
+
+
+
+
+
+
+            <!-- yeh thoda beatification ka freepik ka sasta coder -->
+            <div class="coder">
+                <img width="80%" src="https://i.postimg.cc/xjm2SKPc/green-coder.png" alt="">
+            </div>
+            <!--end of sasta coder-->
+
+            <!-- yeah bass mera intro dene k lie ki me kon hu -->
+            <div class="content">
+                <h1>My Intro</h1>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit sed impedit sequi expedita quasi rerum aut ut numquam necessitatibus assumenda laborum dignissimos aperiam quisquam at aliquid eum, voluptatum excepturi dolores optio. Reprehenderit
+                    porro ex repudiandae corporis atque sapiente quam quasi, modi repellat magni expedita doloremque nesciunt accusantium. Adipisci, ipsum? Voluptatem recusandae placeat ipsam error iusto quos, quo iure, autem, magnam doloremque eius maxime
+                    consequatur quae deleniti incidunt fuga beatae officia enim eligendi labore obcaecati aperiam. Ipsa laudantium tempore officiis alias consequuntur illo nulla, accusamus perferendis at voluptas, magnam cumque, temporibus nemo doloremque
+                    repellendus ad nihil aut. Beatae officia facere sapiente.</p>
+            </div>
+            <!-- end of intro -->
+
+            <style>
+
+            </style>
+
+            <section class="social">
+                <div class="dabba">
+                    <a target="_blank" href="https://www.facebook.com/vidhanshu.borade.18">
+                        <h1 onmouseover="moveRight('f')" onmouseout="moveLeft('f')" class="fb" id="f">
+                            Facebook<i class="fab fa-facebook"></i>
+                        </h1>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/vidhanshu_borade/">
+                        <h1 onmouseover="moveRight('i')" onmouseout="moveLeft('i')" class="insta" id="i"> Instagram <i class="fab fa-instagram"></i></h1>
+                    </a>
+                    <a target="_blank" href="https://mobile.twitter.com/vidhanshuborad1">
+                        <h1 onmouseover="moveRight('t')" onmouseout="moveLeft('t')" id="t" class="twit"> twitter<i class="fab fa-twitter"></i></h1>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/vidhanshu-borade-325741210">
+                        <h1 onmouseover="moveRight('l')" onmouseout="moveLeft('l')" class="lnkdn" id="l">
+                            linkedln <i class="fab fa-linkedin-in"></i></h1>
+                    </a>
+                </div>
+            </section>
+
+
+            <!-- only for smaller devices -->
+            <section class="td-image">
+                <img src="https://i.postimg.cc/kGGqxZbs/3d-coder.png" width="100%" alt="">
+            </section>
+
+            <footer class="foot">
+                <div class="bottom">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="coderXContact.html">Contact me</a></li>
+                        <li><a href="coderXservice.html">Services</a></li>
+                        <li><a href="coderXHelp.html">Help</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="coderXAbout.html">About me</a></li>
+                        <li><a href="coderXRegistration.html">Register</a></li>
+                        <li><a href="coderXsocial.html">social networking</a></li>
+                        <li><a href="#home">blank</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#home">blank</a>
+                        </li>
+                        <li><a href="#home">blank</a></li>
+                        <li><a href="#home">blank</a></li>
+                        <li><a href="#home">blank</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <h4>Made with<span>&#10084</span> By Vidhanshu</h4>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

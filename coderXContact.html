@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top_scroll_nav</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Nunito:wght@200&family=Roboto&family=Roboto+Slab:wght@300;400&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="coderX.css">
+    <script src="coderX.js"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <!-- side vala kala navbar ka dabba -->
+    <div class="nav-side-container">
+        <span class="close" onclick="cl()">&times</span>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="coderXservice.html">SERVICES</a></li>
+            <li><a href="coderXContact.html">CONTACT ME</a></li>
+            <li><a href="coderXHelp.html">Help</a></li>
+            <button class="register-button"><a href="coderXRegistration.html">Register</a></button>
+        </ul>
+    </div>
+    <!-- side vala kala navbar ka dabba -->
+
+    <!-- yeh container jisme pura webpage dal rkha hu aur iska overlow y hidden kr diya taki content bahar jane pe niche horizontal scroll bar na ajaye -->
+    <div id="home" class="main-container">
+
+
+        <!-- yeh voh container hai jo right me jaraha hai jb mai bars dabara aur overflow hidden hone ke karan yeh aisa lgta hai ki dhas gaya right me -->
+        <div class="container">
+
+
+            <!-- yeh mera simple sa nav bar jiska display flex krke justify content space between kr diya isilie dono apne ap side me chale gaye logo aur bars -->
+            <nav>
+                <h1 class="logo">Coder<span class="X">X</span></h1><span class="open" onclick="op()">&#9776</span>
+            </nav>
+
+            <!-- yeh header hai isme image daldi  -->
+            <header>
+                <h1>Contact me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, repellat.</p>
+            </header>
+            <!-- end of header -->
+
+
+            <section class="contact-me">
+                <div class="my-info">
+                    <h1> <span>&#9835</span> Name: Vidhanshu Borade</h1>
+                    <h1> <span>&#9738</span> Email: Vidhanshu7218555039@gmail.com</h1>
+                    <h1> <span>&#9743</span> Number: 7218555039</h1>
+                    <h1> <span>&#9752</span> City: Nagpur</h1>
+                </div>
+            </section>
+
+            <!-- goto top button -->
+
+            <span onclick="gototop()" class="goto-top">
+                &#8679
+            </span>
+
+
+            <!-- goto top button -->
+            <section class="location">
+                <div class="loc">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1269822358295!2d79.03120275000003!3d20.9875464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bd9ab17713b9%3A0x31243a7ac7eb9b95!2sDongargaon%2C%20Maharashtra%20441108!5e0!3m2!1sen!2sin!4v1633465456398!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+
+
+            <!-- form to mail me -->
+            <section class="contact-form">
+                <div class="form-contact">
+                    <h1>cotact form</h1>
+                    <form>
+                        <label>Name:<input placeholder="Name" type="text" aria-required="true"> </label>
+                        <label>Email :<input  placeholder="Email"type="email" aria-required="true"> </label>
+                        <label>Numb:<input placeholder="Number" type="number" required> </label>
+                        <a href="mailto:vidhanshu7218555039@gmail.com"><input id="submit" type="button" value="mail me"></a>
+                    </form>
+                </div>
+            </section>
+            <!-- form to mail me -->
+
+            <footer class="foot ">
+                <div class="bottom">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="coderXContact.html">Contact me</a></li>
+                        <li><a href="coderXservice.html">Services</a></li>
+                        <li><a href="coderXHelp.html">Help</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="coderXAbout.html">About me</a></li>
+                        <li><a href="coderXRegistration.html">Register</a></li>
+                        <li><a href="coderXsocial.html">social networking</a></li>
+                        <li><a href="#home">blank</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#home">blank</a>
+                        </li>
+                        <li><a href="#home">blank</a></li>
+                        <li><a href="#home">blank</a></li>
+                        <li><a href="#home">blank</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <h4>Made with<span>&#10084</span> By Vidhanshu</h4>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
