@@ -371,7 +371,7 @@ header p {
     background-color: white;
     text-align: center;
     max-width: 500px;
-    min-width: 400px;
+    min-width: 360px;
 }
 
 .registration .reg .form-signUp {
@@ -497,7 +497,7 @@ input {
 .contact-me .my-info {
     width: 80%;
     margin: auto;
-    min-width: 400px;
+    min-width: 360px;
     max-width: 900px;
     line-height: 40px;
     background-color: white;
